@@ -50,8 +50,9 @@ export default function Header() {
           <ul className="flex flex-col space-y-4 pl-2 sm:pl-14">
             <li><Link href="/about" className="block hover:underline" onClick={toggleMenu}>Über uns</Link></li>
             <li><Link href="/team" className="block hover:underline" onClick={toggleMenu}>Team & Vorstand</Link></li>
-            <li><Link href="/parents" className="block hover:underline" onClick={toggleMenu}>Tagesablauf</Link></li>
-            <li><Link href="/schedule" className="block hover:underline" onClick={toggleMenu}>Zeiten & Kosten</Link></li>
+            <li><Link href="/parents" className="block hover:underline" onClick={toggleMenu}>Eltern & Kinder</Link></li>
+            <li><Link href="/schedule" className="block hover:underline" onClick={toggleMenu}>Tagesablauf</Link></li>
+            <li><Link href="/official" className="block hover:underline" onClick={toggleMenu}>Zeiten & Kosten</Link></li>
             <li><Link href="/contact" className="block hover:underline" onClick={toggleMenu}>Kontakt</Link></li>
           </ul>
         </div>
