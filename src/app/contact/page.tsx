@@ -4,7 +4,7 @@ export default function Contact() {
 
       <div className="card-gradient card-gradient-orange">
         <h1>Anmeldung</h1>
-        <img src="/img/parents2.jpg" alt="" className="object-cover h-64 w-full" />
+        <img src="img/parents2.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
           <p>Über die Voranmeldung können Sie ihr Kind bei uns anmelden.
             Sobald wir einen Platz in Aussicht haben melden wir uns bei Ihnen.</p>
@@ -32,7 +32,7 @@ export default function Contact() {
 
       <div className="card-gradient card-gradient-blue">
         <h1>Stellenanzeigen</h1>
-        <img src="/img/carrer.jpg" alt="" className="object-cover h-64 w-full" />
+        <img src="img/carrer.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
         <p>Momentan sind wir auf der Suche nach folgenden Positionen:</p>
         <h4 className="mt-8 text-2xl font-bold bg-white w-fit mx-auto text-[#00b0e2] rounded-full py-4 px-8 drop-shadow-md">Erzieher*in</h4>

@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="space-y-8">
       {/* <h1 className="text-4xl font-bold">Die Maxhofkinder</h1> */}
-      <img src="/img/logo.png" alt="" className="mx-auto w-1/4 mt-8" />
+      <img src="img/logo.png" alt="" className="mx-auto w-1/4 mt-8" />
       <div className="w-fit mx-auto">
         <p className="text-3xl sm:text-4xl text-center font-bold w-fit text-[#f39535]">
           „Reggio ist kein Modell, <span className="whitespace-nowrap">sondern eine neue</span> <span className="whitespace-nowrap">Art des Denkens über Kinder,</span>

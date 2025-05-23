@@ -3,7 +3,7 @@ export default function Parents() {
     <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 my-8">
       <div className="card-gradient card-gradient-orange">
         <h1>Die Kinder</h1>
-        <img src="/img/kid.jpg" alt="" className="object-cover h-64 w-full" />
+        <img src="img/kid.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
           <p>
             Die EKI Maxhofkinder e.V. ist eine altersgemischte Gruppe von bis zu 40 Kindern. Die Gruppe stellt sich üblicherweise wie folgt zusammen:
@@ -17,7 +17,7 @@ export default function Parents() {
 
       <div className="card-gradient card-gradient-green">
         <h1>Aufgabe und Rolle der Eltern</h1>
-        <img src="/img/parents3.jpg" alt="" className="object-cover h-64 w-full" />
+        <img src="img/parents3.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
           <p>
             „Elterninitiative“ ist ein Wort, bei dem „Initiative“ groß geschrieben werden sollte!

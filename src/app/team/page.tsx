@@ -3,7 +3,7 @@ export default function Team() {
     <div className="space-y-8 my-8 text-center">
       <div className="flex flex-wrap justify-center gap-8">
         <div className="w-fit">
-          <img src="/img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md shadow-[#d7bea1]" />
+          <img src="img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md shadow-[#d7bea1]" />
           <div className="w-full text-center">
             <h2 className="text-[#00b0e2]">Ute Mustermann</h2>
             <p>Leitung Kindergarten</p>
@@ -11,7 +11,7 @@ export default function Team() {
         </div>
 
         <div className="w-fit">
-          <img src="/img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md shadow-[#d7bea1]" />
+          <img src="img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md shadow-[#d7bea1]" />
           <div className="w-full text-center">
             <h2 className="text-[#92ca43]">Ute Mustermann</h2>
             <p>Leitung Hort</p>
@@ -19,7 +19,7 @@ export default function Team() {
         </div>
 
         <div className="w-fit">
-          <img src="/img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md shadow-[#d7bea1]" />
+          <img src="img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md shadow-[#d7bea1]" />
           <div className="w-full text-center">
             <h2 className="text-[#ffaf40]">Ute Mustermann</h2>
             <p>Fachkraft</p>
@@ -27,7 +27,7 @@ export default function Team() {
         </div>
 
         <div className="w-fit">
-          <img src="/img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md shadow-[#d7bea1]" />
+          <img src="img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md shadow-[#d7bea1]" />
           <div className="w-full text-center">
             <h2 className="text-[#bd66ff]">Ute Mustermann</h2>
             <p>Kinderpflegerin</p>
@@ -35,7 +35,7 @@ export default function Team() {
         </div>
 
         <div className="w-fit">
-          <img src="/img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md shadow-[#d7bea1]" />
+          <img src="img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md shadow-[#d7bea1]" />
           <div className="w-full text-center">
             <h2 className="text-[#ff6666]">Ute Mustermann</h2>
             <p>Vorstand</p>

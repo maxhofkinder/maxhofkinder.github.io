@@ -8,7 +8,7 @@ export default function Schedule() {
           <div>
             <div className="card-gradient card-gradient-green">
               <h1>Kindergarten/Krippe</h1>
-              <img src="/img/children.jpg" alt="" className="object-cover h-64 w-full" />
+              <img src="img/children.jpg" alt="" className="object-cover h-64 w-full" />
 
               <div className="cardText">
                 <h3>Unsere Öffnungszeiten sind Mo. - Fr. von 7:00 bis 15:30 Uhr.</h3>
@@ -55,7 +55,7 @@ export default function Schedule() {
 
           <div className="card-gradient card-gradient-blue">
             <h1>Hort</h1>
-            <img src="/img/hort.jpg" alt="" className="object-cover h-64 w-full" />
+            <img src="img/hort.jpg" alt="" className="object-cover h-64 w-full" />
             <div className="cardText">
               <p>Seit 2014 bieten wir 15 Schulkindern eine Betreuung im Hort. Da die Kinder die Räumlichkeiten und das Personal aus der Kindergartenzeit kennen, wird ihnen der Übergang so erleichtert. Der Hort wird von einer Erzieherin und einer Kinderpflegerin betreut.</p>              
               <h3>Der Tagesablauf wird wie folgt gestaltet:</h3>              
