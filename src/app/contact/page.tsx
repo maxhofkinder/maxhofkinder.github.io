@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="grid grid-cols-1 xl:grid-cols-3 gap-16 my-16">
+    <div className="grid grid-cols-1 xl:grid-cols-3 gap-16">
 
       <div className="card-gradient card-gradient-orange">
         <h1>Anmeldung</h1>

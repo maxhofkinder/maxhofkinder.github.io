@@ -1,12 +1,12 @@
 export default function About() {
   return (
-    <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 my-16">
+    <div className="grid grid-cols-1 xl:grid-cols-2 gap-16">
 
       <div className="card-gradient card-gradient-green">
         <h1>Der Verein</h1>
         <img src="img/outside.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
-          <p>Die „Maxhofkinder“ wurden im Juni 1989 gegründet. Wir betreuen Kinder im Alter von 2 bis 10 Jahren. Träger ist der, seit November 1990 eingetragene gemeinnützige Verein, &quot;Maxhofkinder e.V.&quot; (ehemals „Eltern-Kind-Initiative Maxhof e.V.“), dem mindestens ein Elternteil je betreutem Kind als Mitglied angehört.</p>
+          <p>Die „Max&shy;hof&shy;kin&shy;der“ wur&shy;den im Juni 1989 ge&shy;grün&shy;det. Wir be&shy;treu&shy;en Kin&shy;der im Al&shy;ter von 2 bis 10 Jah&shy;ren. Trä&shy;ger ist der, seit No&shy;vem&shy;ber 1990 ein&shy;ge&shy;tra&shy;ge&shy;ne ge&shy;mein&shy;nüt&shy;zi&shy;ge Ver&shy;ein, &quot;Max&shy;hof&shy;kin&shy;der e.V.&quot; (ehe&shy;mals „El&shy;tern-Kind-Ini&shy;tia&shy;ti&shy;ve Max&shy;hof e.V.“), dem min&shy;des&shy;tens ein El&shy;tern&shy;teil je be&shy;treu&shy;tem Kind als Mit&shy;glied an&shy;gehört.</p>
           <p>Der Vorstand des Vereins wird aus den Vereinsmitgliedern gewählt. Er vertritt den Verein nach außen und ist für Kontakte mit den Ämtern und für die Finanzen zuständig.</p>
           <p>Gefördert wird die Eltern-Kind-Initiative &quot;Maxhofkinder e.V.&quot; durch die Stadt München (EKI Förderung), dem BayKiBiG (Bayerisches Kinderbildungs- und betreuungsgesetz) und ist Mitglied im KKT (Klein Kinder Tagesstätten e.V.).</p>
         </div>

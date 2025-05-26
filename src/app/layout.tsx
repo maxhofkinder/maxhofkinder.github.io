@@ -32,7 +32,7 @@ export default function RootLayout({
       <body className={`${dosis.variable} font-dosis min-h-screen`}>
         <Header />
         
-        <main className="mx-auto w-[80%] flex-grow">
+        <main className="mx-auto px-2 md:px-16 lg:px-24 flex-grow mt-8 mb-16">
           {children}
         </main>
         

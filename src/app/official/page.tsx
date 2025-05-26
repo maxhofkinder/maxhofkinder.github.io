@@ -1,10 +1,10 @@
 export default function Official() {
   return (
-    <div className="text-center my-8 space-y-8">
+    <div className="text-center space-y-8">
       <div>
         <h1 className="text-[#ffaf40]">Betreuungszeiten</h1>
         <p className="text-lg max-w-[900px] mx-auto leading-snug">
-          Die Abholzeit richtet sich nach der jeweiligen Buchungszeit, jedoch empfehlen wir spätestens 15:15 Uhr damit noch Zeit für eventuelle Tür- und Angelgespräche ist, die Kinder ihr Spiel in Ruhe zu Ende bringen und sich von ihren Freunden verabschieden können. Die Einrichtung schließt um 15:30 Uhr.
+          Die Ab&shy;hol&shy;zeit richtet sich nach der je&shy;wei&shy;li&shy;gen Bu&shy;chungs&shy;zeit, je&shy;doch emp&shy;feh&shy;len wir spä&shy;tes&shy;tens 15:15 Uhr, da&shy;mit noch Zeit für even&shy;tu&shy;el&shy;le Tür- und An&shy;gel&shy;ge&shy;sprä&shy;che ist, die Kin&shy;der ihr Spiel in Ruhe zu Ende brin&shy;gen und sich von ihren Freun&shy;den ver&shy;ab&shy;schie&shy;den kön&shy;nen. Die Ein&shy;rich&shy;tung schließt um 15:30 Uhr.
           <br /><br />
           Unsere Einrichtung ist bis auf wenige Tage ganzjährig geöffnet. Um stets eine optimale pädagogische Qualität zu gewährleisten und zu sichern, finden Klausurtage zur Fortbildung unseres Teams statt, an denen die Einrichtung geschlossen bleibt. Diese werden rechtzeitig bekannt gegeben.
           <br /><br />
@@ -14,14 +14,15 @@ export default function Official() {
 
       <div>
         <h1 className="text-[#92ca43]">Kosten</h1>
+        <p className="text-sm">Festsetzung der Elternentgelte ab 01.09.2024</p>
         <div className="mx-auto max-w-[600px] overflow-hidden rounded-lg border border-[#92ca43] drop-shadow-md drop-shadow-[#d7bea1]">
           <table className="table-auto w-full">
             <thead>
               <tr className="bg-[#92ca43] text-white">
-                <th className="px-4 py-2">Buchungszeit</th>
-                <th className="px-4 py-2">Kleinkind<br /><span className="text-sm whitespace-nowrap">(unter 3 Jahren)</span></th>
-                <th className="px-4 py-2">Kindergarten<br /><span className="text-sm whitespace-nowrap">(über 3 Jahren)</span></th>
-                <th className="px-4 py-2">Schulkind<br /><span className="text-sm whitespace-nowrap">(1.-4. Klasse)</span></th>
+                <th className="px-2 py-2 text-sm md:text-base">Buchungszeit</th>
+                <th className="px-2 py-2 text-sm md:text-base">Kleinkind<br /><span className="text-sm whitespace-nowrap">(&lt; 3 Jahre)</span></th>
+                <th className="px-2 py-2 text-sm md:text-base">Kindergarten<br /><span className="text-sm whitespace-nowrap">(&gt; 3 Jahre)</span></th>
+                <th className="px-2 py-2 text-sm md:text-base">Schulkind<br /><span className="text-sm whitespace-nowrap">(1.-4. Klasse)</span></th>
               </tr>
             </thead>
             <tbody>

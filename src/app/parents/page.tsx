@@ -1,6 +1,6 @@
 export default function Parents() {
   return (
-    <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 my-8">
+    <div className="grid grid-cols-1 xl:grid-cols-2 gap-16">
       <div className="card-gradient card-gradient-orange">
         <h1>Die Kinder</h1>
         <img src="img/kid.jpg" alt="" className="object-cover h-64 w-full" />
