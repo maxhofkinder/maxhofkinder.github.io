@@ -76,12 +76,12 @@ export default function Schedule() {
                   <p className="font-light text-base leading-tight">(auf dem Schulhof) Die Kinder werden vom Schulhaus abgeholt.</p>
                 </div>
 
-                <p className="text-right text-lg font-medium whitespace-nowrap">8:30 - ca 9:00</p>
+                <p className="text-right text-lg font-medium whitespace-nowrap">12:45 - 13:30</p>
                 <div>
                 <p className="text-lg text-left font-bold">Mittagessen</p>
                   <p className="font-light text-base leading-tight">Die Kinder, die um 13:00 Uhr Schulschluss haben, kommen selbstständig in die Einrichtung. Freispiel.</p>
                 </div>
-                <p className="text-right text-lg font-medium whitespace-nowrap">Ab 9:00</p>
+                <p className="text-right text-lg font-medium whitespace-nowrap">Ab 13:30</p>
                 <div>
                 <p className="text-lg text-left font-bold">Hausaufgaben und Freispielzeit</p>
                   <p className="font-light text-base leading-tight">(je nach Bedarf); In Rücksprache mit den Eltern dürfen die Kinder alleine nach Hause gehen.</p>

@@ -14,31 +14,30 @@
     text-align: center;
     color: white;
     border-radius: 2.25rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    box-shadow: 0 4px 6px -1px #d7bea1;
+    box-shadow: 9px 9px 15px 0px #d7bea1;
     padding-bottom: 4rem;
     padding-top: 1rem;
 
   }
   
   .card-gradient-green {
-    background-image: linear-gradient(to bottom, #92ca43, #75a532);
+    background-image: linear-gradient(to bottom, #a6e054, #669623);
   }
   
   .card-gradient-purple {
-    background-image: linear-gradient(to bottom, #bd66ff, #a530ff);
+    background-image: linear-gradient(to bottom, #c374ff, #8920da);
   }
   
   .card-gradient-orange {
-    background-image: linear-gradient(to bottom, #ffaf40, #df9630);
+    background-image: linear-gradient(to bottom, #ffb751, #f19310);
   }
   
   .card-gradient-red {
-    background-image: linear-gradient(to bottom, #ff6666, #e25252);
+    background-image: linear-gradient(to bottom, #ff7474, #d63f3f);
   }
 
   .card-gradient-blue {
-    background-image: linear-gradient(to bottom, #00b0e2, #0096c0);
+    background-image: linear-gradient(to bottom, #14ccff, #0080a3);
   }
 }
 
