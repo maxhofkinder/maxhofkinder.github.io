@@ -1,22 +1,48 @@
+import fs from 'fs';
+import path from 'path';
+
 export default function Home() {
+  // Read .txt files from public/infobox
+  let infoboxes: { title: string; content: string }[] = [];
+  try {
+    const infoboxDir = path.join(process.cwd(), 'public', 'infobox');
+    const files = fs.existsSync(infoboxDir) ? fs.readdirSync(infoboxDir) : [];
+    infoboxes = files
+      .filter((file) => file.endsWith('.txt'))
+      .map((file) => {
+        const rawContent = fs.readFileSync(path.join(infoboxDir, file), 'utf8');
+        const [firstLine, ...rest] = rawContent.split(/\r?\n/);
+        return {
+          title: firstLine || file.replace(/\.txt$/, ''),
+          content: rest.join('\n').trim(),
+        };
+      });
+  } catch (e) {
+    // ignore errors, show nothing
+  }
+
   return (
     <div className="space-y-8">
-      {/* <h1 className="text-4xl font-bold">Die Maxhofkinder</h1> */}
       <img src="img/logo.png" alt="" className="mx-auto w-1/2 md:w-1/4 mt-8" />
       <div className="w-fit mx-auto">
-        <p className="text-2xl md:text-3xl text-center font-bold w-fit text-[#f39535]">
-          „Reggio ist kein Modell, <span className="whitespace-nowrap">sondern eine neue</span> <span className="whitespace-nowrap">Art des Denkens über Kinder,</span>
-          <br /><span className="text-[#52b155]">über Erziehung, über den <span className="whitespace-nowrap">Kindergarten und seine</span>  <span className="whitespace-nowrap">Beziehung zur Gesellschaft.</span></span>
-          <br /><span className="text-[#00b0e2]">Es ist eine Denkweise, <span className="whitespace-nowrap">die nicht gelernt,</span> <span className="whitespace-nowrap">aber die gefunden werden kann.“</span></span>
-        </p>
-        <p className="text-center italic font-light w-full mt-2">(Aus der Reggio-Pädagogik)</p>
-        <p className="text-base md:text-lg text-center font-medium mt-4">
-          Seit September 2017 eine, als Reggio-Inspiriert anerkannte, Einrichtung für Kinder von 2 bis 10 Jahren.
+        <p className="text-2xl md:text-3xl text-center font-bold">
+          <span className="text-[#f39535]">Wir geben Halt und Herz</span><br/>
+          <span className="text-[#52b155]">für starke Kinder</span><br />
+          <span className="text-[#00b0e2]">mit leuchtender Fantasie!</span>
+          <span>Testing</span>
         </p>
       </div>
+      {infoboxes.length > 0 && (
+        <div className="space-y-4">
+          {infoboxes.map((box, idx) => (
+            <div key={box.title + idx} className="card-gradient rounded-md p-4 border-0 border-t-0 border-l-0 mx-4">
+              <h3 className="font-bold mb-2">{box.title}</h3>
+              <p className="whitespace-pre-line">{box.content}</p>
+            </div>
+          ))}
+        </div>
+      )}
 
-      {/* Add more content for your landing page */}
     </div>
   );
 }
-

@@ -41,6 +41,21 @@
   }
 }
 
+div.card-gradient:nth-of-type(5n+1) {
+  background-image: linear-gradient(to bottom, #ffb751, #f19310); /* orange */
+}
+div.card-gradient:nth-of-type(5n+2) {
+  background-image: linear-gradient(to bottom, #a6e054, #669623); /* green */
+}
+div.card-gradient:nth-of-type(5n+3) {
+  background-image: linear-gradient(to bottom, #14ccff, #0080a3); /* blue */
+}
+div.card-gradient:nth-of-type(5n+4) {
+  background-image: linear-gradient(to bottom, #ff7474, #d63f3f); /* red */
+}
+div.card-gradient:nth-of-type(5n) {
+  background-image: linear-gradient(to bottom, #ffb751, #f19310); /* orange again */
+}
 
 body {
   background: var(--background);
