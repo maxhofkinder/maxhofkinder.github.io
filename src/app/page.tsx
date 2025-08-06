@@ -1,25 +1,33 @@
-import fs from 'fs';
-import path from 'path';
+'use client';
+import { useEffect, useState } from 'react';
+
+type Infobox = { title: string; content: string };
+
+function parseInfoboxes(text: string): Infobox[] {
+  // Split by double newlines, then split each block into title and content
+  return text
+    .split(/\r?\n\r?\n/)
+    .map(block => {
+      const [title, ...rest] = block.split(/\r?\n/);
+      return title && rest.length > 0
+        ? { title: title.trim(), content: rest.join('\n').trim() }
+        : null;
+    })
+    .filter(Boolean) as Infobox[];
+}
 
 export default function Home() {
-  // Read .txt files from public/infobox
-  let infoboxes: { title: string; content: string }[] = [];
-  try {
-    const infoboxDir = path.join(process.cwd(), 'public', 'infobox');
-    const files = fs.existsSync(infoboxDir) ? fs.readdirSync(infoboxDir) : [];
-    infoboxes = files
-      .filter((file) => file.endsWith('.txt'))
-      .map((file) => {
-        const rawContent = fs.readFileSync(path.join(infoboxDir, file), 'utf8');
-        const [firstLine, ...rest] = rawContent.split(/\r?\n/);
-        return {
-          title: firstLine || file.replace(/\.txt$/, ''),
-          content: rest.join('\n').trim(),
-        };
+  const [infoboxes, setInfoboxes] = useState<Infobox[]>([]);
+
+  useEffect(() => {
+    fetch('/infobox/info.txt')
+      .then(res => res.ok ? res.text() : '')
+      .then(text => {
+        if (text.trim()) {
+          setInfoboxes(parseInfoboxes(text));
+        }
       });
-  } catch (e) {
-    // ignore errors, show nothing
-  }
+  }, []);
 
   return (
     <div className="space-y-8">
@@ -29,7 +37,6 @@ export default function Home() {
           <span className="text-[#f39535]">Wir geben Halt und Herz</span><br/>
           <span className="text-[#52b155]">für starke Kinder</span><br />
           <span className="text-[#00b0e2]">mit leuchtender Fantasie!</span>
-          <span>Testing</span>
         </p>
       </div>
       {infoboxes.length > 0 && (
@@ -42,7 +49,6 @@ export default function Home() {
           ))}
         </div>
       )}
-
     </div>
   );
 }
