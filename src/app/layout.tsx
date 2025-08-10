@@ -29,10 +29,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <body className={`${dosis.variable} font-dosis min-h-screen`}>
+      <body className={`${dosis.variable} font-dosis h-full flex flex-col min-h-full`}>
         <Header />
         
-        <main className="mx-auto px-2 md:px-16 lg:px-24 flex-grow mt-8 mb-16">
+        <main className="mx-auto px-2 md:px-16 lg:px-24 mt-8 mb-16 flex-1">
           {children}
         </main>
         

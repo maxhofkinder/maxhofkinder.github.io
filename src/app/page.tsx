@@ -20,7 +20,7 @@ export default function Home() {
   const [infoboxes, setInfoboxes] = useState<Infobox[]>([]);
 
   useEffect(() => {
-    fetch('/infobox/info.txt')
+    fetch('https://raw.githubusercontent.com/maxhofkinder/maxhofkinder.github.io/refs/heads/master/public/infobox/info.txt')
       .then(res => res.ok ? res.text() : '')
       .then(text => {
         if (text.trim()) {
@@ -31,9 +31,9 @@ export default function Home() {
 
   return (
     <div className="space-y-8">
-      <img src="img/logo.png" alt="" className="mx-auto w-1/2 md:w-1/4 mt-8" />
+      <img src="img/logo.png" alt="" className="mx-auto w-1/2 2xl:w-1/4 mt-8" />
       <div className="w-fit mx-auto">
-        <p className="text-2xl md:text-3xl text-center font-bold">
+        <p className="text-4xl md:text-6xl text-center font-bold tracking-wide leading-relaxed">
           <span className="text-[#f39535]">Wir geben Halt und Herz</span><br/>
           <span className="text-[#52b155]">für starke Kinder</span><br />
           <span className="text-[#00b0e2]">mit leuchtender Fantasie!</span>
@@ -43,8 +43,8 @@ export default function Home() {
         <div className="space-y-4">
           {infoboxes.map((box, idx) => (
             <div key={box.title + idx} className="card-gradient rounded-md p-4 border-0 border-t-0 border-l-0 mx-4">
-              <h3 className="font-bold mb-2">{box.title}</h3>
-              <p className="whitespace-pre-line">{box.content}</p>
+              <h3 className="font-bold mb-2 text-white">{box.title}</h3>
+              <p className="whitespace-pre-line text-white">{box.content}</p>
             </div>
           ))}
         </div>

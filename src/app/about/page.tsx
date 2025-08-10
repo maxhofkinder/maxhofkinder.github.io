@@ -5,7 +5,7 @@ export default function About() {
       {/* ---- DER VEREIN ---- */}
       <div className="card-gradient">
         <h1>Der Verein</h1>
-        <img src="img/outside.jpg" alt="" className="object-cover h-64 w-full" />
+        <img src="img/back_1.png" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
           <p>Die EKI Maxhofkinder e.V. ist eine altersgemischte Einrichtung von bis zu 40 Kindern. Die beiden Gruppen stellen sich üblicherweise wie folgt zusammen:</p>
           <p>Bis zu drei Krippenkinder (2 bis 3 Jahre), 20 Kindergartenkinder (3 bis 6 Jahre) und 15 Hortkinder (1. Bis 4. Klasse aus der Königswieser Grundschule)</p>
@@ -35,53 +35,42 @@ export default function About() {
         </div>
       </div> */}
 
-      {/* ---- KONZEPTION ---- */}
-      <div className="card-gradient">
-        <h1>Konzeption</h1>
-        <img src="img/free2.jpg" alt="" className="object-cover h-64 w-full" />
-        <div className="cardText">
-          <p>Eine enge, authentische Zusammenarbeit mit den Eltern bildet die Basis unserer familiären Atmosphäre.
-            Wir gehen auf individuelle Bedürfnisse der Eltern und Kinder ein und stehen beratend zur Verfügung.</p>
-          <p>In einem vertrauensvollen und emphatischen Umfeld legen wir Wert auf individuelle Förderung nach dem Bayr. Bildungs- und Erziehungsplan. Wir leben nach dem situativen Ansatz und bieten in unseren liebevoll gestalteten Räumen und dem Außenbereich Platz für kreative Entfaltung, Ruhe und Bewegung.</p>
-          <p className="text-center">Die ausführliche Konzeption unserer Einrichtung finden Sie hier:</p>
-          <h4 className="mt-4 mb-8 text-2xl font-bold bg-white w-fit mx-auto text-[#ff6666] rounded-full py-4 px-8 drop-shadow-md">Konzeption</h4>
-        </div>
-      </div>
+      
 
       {/* ---- TEAM ---- */}
       <div className="card-gradient">
         <h1>Das Team</h1>
-        {/* <img src="img/free2.jpg" alt="" className="object-cover h-64 w-full" /> */}
-        <div className="flex flex-wrap justify-center gap-8 my-8">
+        <img src="img/women.png" alt="" className="object-cover h-64 w-full" />
+        <div className="flex flex-wrap justify-center gap-8 my-8 text-white">
           <div className="w-fit">
-            <img src="img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md shadow-[#105366]" />
+            {/* <img src="img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md/25 shadow-[#000000]" /> */}
             <div className="w-full text-center">
               <h2>Daniela Wolfrum</h2>
               <p>Leitung Kindergarten</p>
-              <p>leitung@maxhofkinder.de</p>
+              <p><a href="mailto:leitung@maxhofkinder.de">leitung@maxhofkinder.de</a></p>
             </div>
           </div>
 
           <div className="w-fit">
-            <img src="img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md shadow-[#105366]" />
+            {/* <img src="img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md/25 shadow-[#000000]" /> */}
             <div className="w-full text-center">
               <h2>Alessandra Hauptmann</h2>
               <p>Leitung Hort</p>
-              <p>leitung@maxhofkinder.de</p>
+              <p><a href="mailto:leitung@maxhofkinder.de">leitung@maxhofkinder.de</a></p>
             </div>
           </div>
         </div>
-        <div className="cardText">
+        {/* <div className="cardText">
           <p>Zu unserem hochmotivierten und engagierten Team zählen wir zwei Erzieherinnen in der Leitungsposition (eine mit Schwerpunkt Kindergarten und eine mit Schwerpunkt Hortarbeit), eine pädagogische Fachkraft sowie zwei Kinderpflegerinnen.</p>
           <p>Zusätzlich wird das Team vom mobilen heilpädagogischen Fachdienst unterstützt. Dieser kommt einmal die Woche zur Förderung des Integrationskindes und steht für Fachfragen zur Verfügung. Jede Kollegin darf sich in ihren persönlichen Schwerpunkten frei entfalten, setzt diese optimal im pädagogischen Alltag ein und bildet sich stets fort.</p>
           <p>Die Ausbildung neuer Kollegen/innen sehen wir als besondere Aufgabe. Aus diesem Grund bieten wir seit September 2016 eine Stelle zum Sozialpädagogischem Seminar an. Zudem ermöglichen wir interessierten Schülern/innen regelmäßig ein Praktikum in unserer Einrichtung.</p>
-        </div>
+        </div> */}
       </div>
 
       {/* ---- VORSTAND ---- */}
       <div className="card-gradient">
         <h1>Vorstand</h1>
-        <img src="img/free2.jpg" alt="" className="object-cover h-64 w-full" />
+        <img src="img/kiga_1.png" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
           <p>Der Vorstand handelt stets im Auftrag des Vereins, muss dessen Ziele verfolgen und auf die Einhaltung der gesetzlichen Vorgaben achten. Er fungiert als Träger, Vereinsvertretung und Arbeitgeber. </p>
           <p>In der Regel wird er aus drei Mitgliedern der Mitgliederversammlung gestellt und gewählt. Sie dürfen sich auch mehrere Jahre in Folge aufstellen lassen. Die Eltern können sich mit ihren Anliegen, Fragen und Problemen jederzeit an den Vorstand wenden, persönlich, telefonisch oder per E-mail. Auch zwischen Eltern und Team vermittelt, wenn nötig, der Vorstand.</p>
@@ -89,7 +78,7 @@ export default function About() {
       </div>
 
       {/* ---- KONTAKT ---- */}
-      <div className="card-gradient card-gradient-green">
+      <div className="card-gradient">
         <h1>Kontakt</h1>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2665.4212158051123!2d11.482557551060475!3d48.08281376285081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479dd972d5956165%3A0x8f032391f9adb7a7!2sMaxhof+Kinder!5e0!3m2!1sde!2sde!4v1497276151895"
@@ -101,11 +90,12 @@ export default function About() {
             Königswieser Str. 12 • 81475 München<br />
             Telefon: 089 - 7594647<br />
             Fax: 089 - 74442218<br />
-            E-Mail: Kontakt@maxhofkinder.de<br />
+            E-Mail: <a href="mailto:kontakt@maxhofkinder.de">Kontakt@maxhofkinder.de</a><br />
           </p>
           <p className="text-center">Haben Sie Fragen oder Interesse an unserer Einrichtung?</p>
-          <h4 className="mt-8 text-2xl font-bold bg-white w-fit mx-auto text-[#92ca43] rounded-full py-4 px-8 drop-shadow-md">Schreiben Sie uns!</h4>
+          
         </div>
+        <h4 className="text-2xl font-bold bg-white w-fit mx-auto rounded-full py-4 px-8 drop-shadow-md mt-4"><a href="mailto:kontakt@maxhofkinder.de">Schreiben Sie uns!</a></h4>
       </div>
 
 

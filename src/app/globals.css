@@ -12,16 +12,17 @@
     border-top-width: 2px;
     border-left-width: 2px;
     text-align: center;
-    color: white;
     border-radius: 2.25rem;
     box-shadow: 9px 9px 15px 0px #d7bea1;
     padding-bottom: 4rem;
     padding-top: 1rem;
+    border-color: #ffffff;
 
   }
   
   .card-gradient-green {
     background-image: linear-gradient(to bottom, #a6e054, #669623);
+    color: #669623;
   }
   
   .card-gradient-purple {
@@ -43,18 +44,23 @@
 
 div.card-gradient:nth-of-type(5n+1) {
   background-image: linear-gradient(to bottom, #ffb751, #f19310); /* orange */
+  color: #f19310;
 }
 div.card-gradient:nth-of-type(5n+2) {
   background-image: linear-gradient(to bottom, #a6e054, #669623); /* green */
+  color: #92ca43;
 }
 div.card-gradient:nth-of-type(5n+3) {
   background-image: linear-gradient(to bottom, #14ccff, #0080a3); /* blue */
+  color: #0080a3;
 }
 div.card-gradient:nth-of-type(5n+4) {
   background-image: linear-gradient(to bottom, #ff7474, #d63f3f); /* red */
+  color: #d63f3f;
 }
 div.card-gradient:nth-of-type(5n) {
   background-image: linear-gradient(to bottom, #ffb751, #f19310); /* orange again */
+  color: #f19310;
 }
 
 body {
@@ -64,6 +70,7 @@ body {
 }
 
 h1 {
+  color: #ffffff;
   font-size: 2.25rem;
   font-weight: bold;
   padding-bottom: 1rem;
@@ -84,6 +91,7 @@ h3 {
 }
 
 .cardText {
+  color: #ffffff;
   font-size: 1.125rem;
   text-align: left;
   font-weight: 500;

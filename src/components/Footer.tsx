@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 mt-8 ">
+    <footer className="bg-gray-100 w-full">
       <div className='flex flex-col lg:flex-row justify-center gap-x-16 w-[80%] mx-auto  items-center'>
         <div className=''>
         <img className='' src="img/logo-foerderung.png" alt="" />

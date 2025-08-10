@@ -1,7 +1,7 @@
 export default function Impressum() {
   return (
     <div className="space-y-8">
-      <h1 className="text-4xl font-bold">Impressum</h1>
+      <h1 className="text-4xl font-bold text-black!">Impressum</h1>
       <p className="text-lg">
         Angaben gemäß § 5 TMG:
 Maxhofkinder e. V.
