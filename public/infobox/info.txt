@@ -1,0 +1,2 @@
+Überschrift Infobox
+Das ist eine Infobox mit Text, dden ihr ganz einfach über ein Textdokument erstellen könnt.
