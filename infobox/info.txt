@@ -1,2 +1,2 @@
-Überschrift Infobox
-Das ist eine Infobox mit Text, dden ihr ganz einfach über ein Textdokument erstellen könnt.
+Besonderes Ereignis
+Sollte ein besonderes Ereignis stattfinden wird es mit einem solchen Banner angekündigt.
