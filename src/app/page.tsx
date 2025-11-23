@@ -20,7 +20,7 @@ export default function Home() {
   const [infoboxes, setInfoboxes] = useState<Infobox[]>([]);
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/maxhofkinder/maxhofkinder.github.io/refs/heads/master/public/infobox/info.txt')
+    fetch('infobox/info.txt')
       .then(res => res.ok ? res.text() : '')
       .then(text => {
         if (text.trim()) {

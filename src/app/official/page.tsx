@@ -4,21 +4,21 @@ export default function Official() {
 
       {/* ---- Öffnungszeiten ---- */}
       <div className="card-gradient">
-        <h1>Öffnungszeiten</h1>
-        <img src="img/yard_1.png" alt="" className="object-cover h-64 w-full" />
+        <h1>Betreuungszeiten</h1>
+        <img src="img/yard_1.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
-          <p>Unsere Öffnungszeiten sind Montag bis Freitag von 7:00 bis 15:30 Uhr.</p>
-          <p>Die Ab&shy;hol&shy;zeit richtet sich nach der je&shy;wei&shy;li&shy;gen Bu&shy;chungs&shy;zeit, je&shy;doch emp&shy;feh&shy;len wir spä&shy;tes&shy;tens 15:15 Uhr, da&shy;mit noch Zeit für even&shy;tu&shy;el&shy;le Tür- und An&shy;gel&shy;ge&shy;sprä&shy;che ist, die Kin&shy;der ihr Spiel in Ruhe zu Ende brin&shy;gen und sich von ihren Freun&shy;den ver&shy;ab&shy;schie&shy;den kön&shy;nen. Die Ein&shy;rich&shy;tung schließt um 15:30 Uhr.</p>
-          <p>Unsere Einrichtung ist bis auf wenige Tage ganzjährig geöffnet. Um stets eine optimale pädagogische Qualität zu gewährleisten und zu sichern, finden Klausurtage zur Fortbildung unseres Teams statt, an denen die Einrichtung geschlossen bleibt. Diese werden rechtzeitig bekannt gegeben.</p>
-          <p>Die Betreuungszeiten der Schulkinder richten sich nach ihrem Stundenplan. Auf Wunsch ist eine Betreuung auch in den Schulferien, während der gesamten Öffnungszeiten, möglich.</p>
+          <p>Unsere Betreuungszeiten sind Montag bis Donnerstag von 7:00 bis 15:30 Uhr, am Freitag von 7:30 Uhr bis 15:30 Uhr.</p>
+          <p>Die Abholzeit richtet sich nach der jeweiligen Buchungszeit. Wir empfehlen, die Kinder spätestens 15 Minuten vor dem Betreuungsende abzuholen, damit noch Zeit für eventuelle Tür- und Angelgespräche ist, die Kinder ihr Spiel in Ruhe zu Ende bringen und sie sich von ihren Freundinnen und Freunden verabschieden können.</p>
+          <p>Unsere Einrichtung ist bis auf wenige Tage ganzjährig geöffnet. Um stets eine optimale pädagogische Qualität zu gewährleisten und zu sichern, finden Klausurtage zur Fortbildung unseres Teams statt, an denen die Einrichtung geschlossen bleibt. Diese Schließtage werden rechtzeitig bekannt gegeben.</p>
+          <p>Die Betreuungszeiten der Schulkinder richten sich nach ihrem Stundenplan. Auf Wunsch ist eine Betreuung auch in den Schulferien, während der gesamten Betreuungszeiten, möglich.</p>
         </div>
       </div>
 
       {/* ---- Kosten ---- */}
       <div className="card-gradient">
         <h1>Kosten</h1>
-        <img src="img/hall_2.png" alt="" className="object-cover h-64 w-full" />
-        <p className="text-sm text-black">Festsetzung der Elternentgelte ab 01.09.2024</p>
+        <img src="img/hall_2.jpg" alt="" className="object-cover h-64 w-full" />
+        <p className="text-sm text-black">Festsetzung der Elternentgelte ab 01.01.2025</p>
         <div className="mx-auto max-w-[600px] overflow-hidden shadow-md/25 shadow-[#000000]">
           <table className="table-auto w-full text-black">
             <thead>
@@ -82,11 +82,12 @@ export default function Official() {
 {/* ---- Anmeldung ---- */}
       <div className="card-gradient">
         <h1>Anmeldung</h1>
-        <img src="img/entrance_1.png" alt="" className="object-cover h-64 w-full" />
+        <img src="img/entrance.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
-          <p>Da die Nachbelegung der offenen Plätze in Kindergarten und Hort mehrheitlich hausintern geregelt wird, werden die verbleibenden freien Plätze über externe Anmeldungen gefüllt. Nach einer Vorauswahl laden wir die Bewerber zu einem persönlichen Gespräch ein.</p>
-<p>Die Registrierung auf unserer Warteliste erfolgt ausschließlich über unser Anmeldeformular oder über den Kiter-Finder+. Im Falle einer Zusage nehmen wir Kontakt auf, im Falle einer Absage bleiben die Bewerber automatisch auf unserer Warteliste. Eine persönliche Benachrichtigung gibt es darüber nicht.</p>
+          <p>Da die Nachbelegung der offenen Plätze in Kindergarten und Hort mehrheitlich hausintern geregelt wird, werden die verbleibenden freien Plätze über externe Anmeldungen gefüllt. Nach einer Vorauswahl laden wir die Familien zu einem persönlichen Gespräch ein.</p>
+          <p>Die Registrierung für unsere Warteliste erfolgt <b>ausschließlich über unser Anmeldeformular</b>. Im Falle einer Zusage nehmen wir Kontakt auf, im Falle einer Absage bleiben die Kinder automatisch auf unserer Warteliste. Eine persönliche Benachrichtigung gibt es darüber nicht.</p>
         </div>
+         {/* <h4 className="text-2xl font-bold bg-white w-fit mx-auto rounded-full py-4 px-8 drop-shadow-md mt-4"><a href="https://raw.githubusercontent.com/maxhofkinder/mhk-data/main/docs/Voranmeldung_Maxhofkinder.pdf" target="_blank">Anmeldung</a></h4> */}
          <h4 className="text-2xl font-bold bg-white w-fit mx-auto rounded-full py-4 px-8 drop-shadow-md mt-4"><a href="docs/Voranmeldung_Maxhofkinder.pdf" target="_blank">Anmeldung</a></h4>
       </div>
 

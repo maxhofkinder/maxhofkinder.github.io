@@ -2,14 +2,13 @@ export default function About() {
   return (
     <div className="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-16">
 
-      {/* ---- DER VEREIN ---- */}
+      {/* ---- DIE KINDER ---- */}
       <div className="card-gradient">
-        <h1>Der Verein</h1>
-        <img src="img/back_1.png" alt="" className="object-cover h-64 w-full" />
+        <h1>Die Kinder</h1>
+        <img src="img/back.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
-          <p>Die EKI Maxhofkinder e.V. ist eine altersgemischte Einrichtung von bis zu 40 Kindern. Die beiden Gruppen stellen sich üblicherweise wie folgt zusammen:</p>
-          <p>Bis zu drei Krippenkinder (2 bis 3 Jahre), 20 Kindergartenkinder (3 bis 6 Jahre) und 15 Hortkinder (1. Bis 4. Klasse aus der Königswieser Grundschule)</p>
-          <p>Außerdem bieten wir zwei Einzelintegrationsplätze für Kinder mit Behinderung oder von Behinderung bedrohte Kinder nach §§ 53, 54 SGB XII an. Eine enge Zusammenarbeit mit dem heilpädagogischen Fachdienst ist dabei eine Selbstverständlichkeit.</p>
+          <p>Die Eltern-Kind-Initiative Maxhofkinder e.V. ist eine altersgemischte Einrichtung mit 40 Kindern. In zwei Gruppen betreuen wir üblicherweise bis zu drei Krippenkinder (2 bis 3 Jahre), 21 Kindergartenkinder (3 bis 6 Jahre) und 16 Hortkinder (1. bis 4. Klasse aus der Königswieser Grundschule)</p>
+          <p>Für Kinder mit Behinderung oder von Behinderung bedrohte Kinder bieten wir zwei Einzelintegrationsplätze nach §§ 53, 54 SGB XII an. Hierbei arbeiten wir eng mit dem heilpädagogischen Fachdienst zusammen.</p>
         </div>
       </div>
 
@@ -40,7 +39,7 @@ export default function About() {
       {/* ---- TEAM ---- */}
       <div className="card-gradient">
         <h1>Das Team</h1>
-        <img src="img/women.png" alt="" className="object-cover h-64 w-full" />
+        <img src="img/team.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="flex flex-wrap justify-center gap-8 my-8 text-white">
           <div className="w-fit">
             {/* <img src="img/profile.jpg" alt="" className="rounded-full w-[80%] mx-auto shadow-md/25 shadow-[#000000]" /> */}
@@ -60,30 +59,31 @@ export default function About() {
             </div>
           </div>
         </div>
-        {/* <div className="cardText">
-          <p>Zu unserem hochmotivierten und engagierten Team zählen wir zwei Erzieherinnen in der Leitungsposition (eine mit Schwerpunkt Kindergarten und eine mit Schwerpunkt Hortarbeit), eine pädagogische Fachkraft sowie zwei Kinderpflegerinnen.</p>
-          <p>Zusätzlich wird das Team vom mobilen heilpädagogischen Fachdienst unterstützt. Dieser kommt einmal die Woche zur Förderung des Integrationskindes und steht für Fachfragen zur Verfügung. Jede Kollegin darf sich in ihren persönlichen Schwerpunkten frei entfalten, setzt diese optimal im pädagogischen Alltag ein und bildet sich stets fort.</p>
-          <p>Die Ausbildung neuer Kollegen/innen sehen wir als besondere Aufgabe. Aus diesem Grund bieten wir seit September 2016 eine Stelle zum Sozialpädagogischem Seminar an. Zudem ermöglichen wir interessierten Schülern/innen regelmäßig ein Praktikum in unserer Einrichtung.</p>
-        </div> */}
+        <div className="cardText">
+          <p>Zu unserem Team zählen wir zwei Erzieherinnen in der Leitungsposition (eine mit Schwerpunkt Kindergarten und eine mit Schwerpunkt Hortarbeit), eine Erzieherin und zwei pädagogische Ergänzungskräfte im Kindergarten sowie eine Erzieherin und eine Hilfskraft im Hortbereich. Unterstützt werden wir durch unsere Küchenkräfte.</p>
+          <p>Zusätzlich wird das Team vom mobilen heilpädagogischen Fachdienst unterstützt. Dieser kommt einmal die Woche zur Förderung der Integrationskinder und steht für Fachfragen zur Verfügung.</p>
+        </div>
       </div>
 
       {/* ---- VORSTAND ---- */}
       <div className="card-gradient">
-        <h1>Vorstand</h1>
-        <img src="img/kiga_1.png" alt="" className="object-cover h-64 w-full" />
+        <h1>Verein & Vorstand</h1>
+        <img src="img/kiga_1.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
-          <p>Der Vorstand handelt stets im Auftrag des Vereins, muss dessen Ziele verfolgen und auf die Einhaltung der gesetzlichen Vorgaben achten. Er fungiert als Träger, Vereinsvertretung und Arbeitgeber. </p>
-          <p>In der Regel wird er aus drei Mitgliedern der Mitgliederversammlung gestellt und gewählt. Sie dürfen sich auch mehrere Jahre in Folge aufstellen lassen. Die Eltern können sich mit ihren Anliegen, Fragen und Problemen jederzeit an den Vorstand wenden, persönlich, telefonisch oder per E-mail. Auch zwischen Eltern und Team vermittelt, wenn nötig, der Vorstand.</p>
+          <p>Die Eltern-Kind-Initiative „Maxhofkinder e.V.“ ist ein gemeinnütziger Verein, dem die Eltern der aktuell betreuten Kinder angehören. Die aktive Mitarbeit aller Eltern ist eine notwendige Voraussetzung für einen reibungslosen Ablauf und die erfolgreiche Arbeit der Einrichtung. Die Eltern übernehmen ehrenamtlich alle Verwaltungs- und Organisationsaufgaben.</p>
+          <p>Die Eltern der betreuten Kinder sind Mitglieder des Vereins und wählen aus ihrer Mitte einen Vorstand, der aus drei Personen besteht. Der Vorstand vertritt den Verein nach außen, fungiert als Träger sowie Arbeitgeber und ist für Kontakte mit Ämtern und für die Finanzen zuständig.</p>
+          <p>Auch zwischen Eltern und Team vermittelt, wenn nötig, der Vorstand.</p>
         </div>
       </div>
 
       {/* ---- KONTAKT ---- */}
       <div className="card-gradient">
         <h1>Kontakt</h1>
-        <iframe
+        <a href="https://maps.google.com/maps?ll=48.083614,11.485004&z=15&t=m&hl=de&gl=US&mapclient=embed&cid=10305119482219968423"><img src="img/map.jpg" alt="" className="object-cover h-64 w-full" /></a>
+        {/* <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2665.4212158051123!2d11.482557551060475!3d48.08281376285081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479dd972d5956165%3A0x8f032391f9adb7a7!2sMaxhof+Kinder!5e0!3m2!1sde!2sde!4v1497276151895"
           className="w-full h-64"
-        ></iframe>
+        ></iframe> */}
         <div className="cardText">
           <p className="text-center">
             <b>Maxhofkinder e. V.</b><br />
