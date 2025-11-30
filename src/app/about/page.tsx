@@ -60,7 +60,7 @@ export default function About() {
           </div>
         </div>
         <div className="cardText">
-          <p>Zu unserem Team zählen wir zwei Erzieherinnen in der Leitungsposition (eine mit Schwerpunkt Kindergarten und eine mit Schwerpunkt Hortarbeit), eine Erzieherin und zwei pädagogische Ergänzungskräfte im Kindergarten sowie eine Erzieherin und eine Hilfskraft im Hortbereich. Unterstützt werden wir durch unsere Küchenkräfte.</p>
+          <p>Zu unserem Team zählen wir zwei Erzieherinnen in der Leitungsposition (eine mit Schwerpunkt Kindergarten und eine mit Schwerpunkt Hortarbeit), eine Erzieherin und zwei pädagogische Ergänzungskräfte im Kindergarten sowie eine Erzieherin und eine Hilfskraft im Hortbereich.</p>
           <p>Zusätzlich wird das Team vom mobilen heilpädagogischen Fachdienst unterstützt. Dieser kommt einmal die Woche zur Förderung der Integrationskinder und steht für Fachfragen zur Verfügung.</p>
         </div>
       </div>
@@ -71,8 +71,7 @@ export default function About() {
         <img src="img/kiga_1.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
           <p>Die Eltern-Kind-Initiative „Maxhofkinder e.V.“ ist ein gemeinnütziger Verein, dem die Eltern der aktuell betreuten Kinder angehören. Die aktive Mitarbeit aller Eltern ist eine notwendige Voraussetzung für einen reibungslosen Ablauf und die erfolgreiche Arbeit der Einrichtung. Die Eltern übernehmen ehrenamtlich alle Verwaltungs- und Organisationsaufgaben.</p>
-          <p>Die Eltern der betreuten Kinder sind Mitglieder des Vereins und wählen aus ihrer Mitte einen Vorstand, der aus drei Personen besteht. Der Vorstand vertritt den Verein nach außen, fungiert als Träger sowie Arbeitgeber und ist für Kontakte mit Ämtern und für die Finanzen zuständig.</p>
-          <p>Auch zwischen Eltern und Team vermittelt, wenn nötig, der Vorstand.</p>
+          <p>Die Eltern der betreuten Kinder sind Mitglieder des Vereins und wählen aus ihrer Mitte einen Vorstand, der aus drei Personen besteht. Der Vorstand vertritt den Verein nach außen, fungiert als Träger sowie Arbeitgeber und ist für Kontakte mit Ämtern und für die Finanzen zuständig. Auch zwischen Eltern und Team vermittelt, wenn nötig, der Vorstand.</p>
         </div>
       </div>
 
@@ -89,7 +88,6 @@ export default function About() {
             <b>Maxhofkinder e. V.</b><br />
             Königswieser Str. 12 • 81475 München<br />
             Telefon: 089 - 7594647<br />
-            Fax: 089 - 74442218<br />
             E-Mail: <a href="mailto:kontakt@maxhofkinder.de">Kontakt@maxhofkinder.de</a><br />
           </p>
           <p className="text-center">Haben Sie Fragen oder Interesse an unserer Einrichtung?</p>
