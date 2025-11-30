@@ -1,2 +1,0 @@
-Besonderes Ereignis
-Sollte ein besonderes Ereignis stattfinden wird es mit einem solchen Banner angekündigt.
