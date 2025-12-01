@@ -14,7 +14,7 @@ export default function Header() {
       <div className="mx-auto px-2 md:px-16 lg:px-24 py-4 flex justify-between items-center">
         <div className="logo ">
           {/* Logo will go here */}          
-          <Link href="/" className="text-2xl font-bold"><img src="img/logo_text.jpg" alt="" className='h-[32px]'/></Link>
+          <Link href="/" className="text-2xl font-bold"><img src="/img/logo_text.jpg" alt="" className='h-[32px]'/></Link>
         </div>
         
         {/* Desktop Navigation */}

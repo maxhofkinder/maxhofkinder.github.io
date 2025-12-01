@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-gray-100 w-full">
       <div className='flex flex-col lg:flex-row justify-center gap-x-16 w-[80%] mx-auto  items-center'>
         <div className=''>
-        <img className='' src="img/logo-foerderung.png" alt="" />
+        <img className='' src="/img/logo-foerderung.png" alt="" />
       </div>
       
       <div className="flex flex-row flex-wrap lg:flex-col justify-center py-5 gap-x-4">

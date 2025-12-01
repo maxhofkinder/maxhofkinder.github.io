@@ -5,7 +5,7 @@ export default function Official() {
       {/* ---- Öffnungszeiten ---- */}
       <div className="card-gradient">
         <h1>Betreuungszeiten</h1>
-        <img src="img/yard_1.jpg" alt="" className="object-cover h-64 w-full" />
+        <img src="/img/yard_1.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
           <p>Unsere Betreuungszeiten sind Montag bis Donnerstag von 7:00 bis 15:30 Uhr, am Freitag von 7:30 Uhr bis 15:30 Uhr.</p>
           <p>Die Abholzeit richtet sich nach der jeweiligen Buchungszeit. Wir empfehlen, die Kinder spätestens 15 Minuten vor dem Betreuungsende abzuholen, damit noch Zeit für eventuelle Tür- und Angelgespräche ist, die Kinder ihr Spiel in Ruhe zu Ende bringen und sie sich von ihren Freundinnen und Freunden verabschieden können.</p>
@@ -17,7 +17,7 @@ export default function Official() {
       {/* ---- Kosten ---- */}
       <div className="card-gradient">
         <h1>Kosten</h1>
-        <img src="img/hall_2.jpg" alt="" className="object-cover h-64 w-full" />
+        <img src="/img/hall_2.jpg" alt="" className="object-cover h-64 w-full" />
         <p className="text-sm text-black">Festsetzung der Elternentgelte ab 01.01.2025</p>
         <div className="mx-auto max-w-[600px] overflow-hidden shadow-md/25 shadow-[#000000]">
           <table className="table-auto w-full text-black">
@@ -88,13 +88,13 @@ export default function Official() {
 {/* ---- Anmeldung ---- */}
       <div className="card-gradient">
         <h1>Anmeldung</h1>
-        <img src="img/entrance.jpg" alt="" className="object-cover h-64 w-full" />
+        <img src="/img/entrance.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
           <p>Da die Nachbelegung der offenen Plätze in Kindergarten und Hort mehrheitlich hausintern geregelt wird, werden die verbleibenden freien Plätze über externe Anmeldungen gefüllt. Nach einer Vorauswahl laden wir die Familien zu einem persönlichen Gespräch ein.</p>
           <p>Die Registrierung für unsere Warteliste erfolgt <b>ausschließlich über unser Anmeldeformular</b>. Im Falle einer Zusage nehmen wir Kontakt auf, im Falle einer Absage bleiben die Kinder automatisch auf unserer Warteliste. Eine persönliche Benachrichtigung gibt es darüber nicht.</p>
         </div>
          {/* <h4 className="text-2xl font-bold bg-white w-fit mx-auto rounded-full py-4 px-8 drop-shadow-md mt-4"><a href="https://raw.githubusercontent.com/maxhofkinder/mhk-data/main/docs/Voranmeldung_Maxhofkinder.pdf" target="_blank">Anmeldung</a></h4> */}
-         <h4 className="text-2xl font-bold bg-white w-fit mx-auto rounded-full py-4 px-8 drop-shadow-md mt-4"><a href="docs/Voranmeldung_Maxhofkinder.pdf" target="_blank">Anmeldung</a></h4>
+         <h4 className="text-2xl font-bold bg-white w-fit mx-auto rounded-full py-4 px-8 drop-shadow-md mt-4"><a href="/docs/Voranmeldung_Maxhofkinder.pdf" target="_blank">Anmeldung</a></h4>
       </div>
     </div>
   );

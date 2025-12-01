@@ -6,7 +6,7 @@ export default function Schedule() {
       {/* ---- KONZEPTION ---- */}
       <div className="card-gradient xl:col-span-2 2xl:col-span-1">
         <h1>Konzeption</h1>
-        <img src="img/kiga_2.jpg" alt="" className="object-cover h-64 w-full" />
+        <img src="/img/kiga_2.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
           <p>Eine enge, authentische Zusammenarbeit mit den Eltern bildet die Basis unserer familiären Atmosphäre.
             Wir gehen auf individuelle Bedürfnisse der Eltern und Kinder ein und stehen beratend zur Verfügung.</p>
@@ -20,7 +20,7 @@ export default function Schedule() {
       {/* ---- TAGESABLAUF KIDERGARTEN ---- */}
       <div className="card-gradient">
         <h1>Tagesablauf Kindergarten</h1>
-        <img src="img/kiga_3.jpg" alt="" className="object-cover h-64 w-full" />
+        <img src="/img/kiga_3.jpg" alt="" className="object-cover h-64 w-full" />
 
         <div className="cardText">
           {/* <h3>Unsere Öffnungszeiten sind Mo. - Fr. von 7:00 bis 15:30 Uhr.</h3>
@@ -77,7 +77,7 @@ export default function Schedule() {
       {/* ---- TAGESABLAUF HORT ---- */}
       <div className="card-gradient">
         <h1>Tagesablauf Hort</h1>
-        <img src="img/hort_1.jpg" alt="" className="object-cover h-64 w-full" />
+        <img src="/img/hort_1.jpg" alt="" className="object-cover h-64 w-full" />
         <div className="cardText">
           {/* <p>Seit 2014 bieten wir 15 Schulkindern eine Betreuung im Hort. Da die Kinder die Räumlichkeiten und das Personal aus der Kindergartenzeit kennen, wird ihnen der Übergang so erleichtert. Der Hort wird von einer Erzieherin und einer Kinderpflegerin betreut.</p>
           <h3>Der Tagesablauf wird wie folgt gestaltet:</h3> */}
