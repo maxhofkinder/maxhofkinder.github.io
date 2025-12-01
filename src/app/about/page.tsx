@@ -73,6 +73,7 @@ export default function About() {
           <p>Die Eltern-Kind-Initiative „Maxhofkinder e.V.“ ist ein gemeinnütziger Verein, dem die Eltern der aktuell betreuten Kinder angehören. Die aktive Mitarbeit aller Eltern ist eine notwendige Voraussetzung für einen reibungslosen Ablauf und die erfolgreiche Arbeit der Einrichtung. Die Eltern übernehmen ehrenamtlich alle Verwaltungs- und Organisationsaufgaben.</p>
           <p>Die Eltern der betreuten Kinder sind Mitglieder des Vereins und wählen aus ihrer Mitte einen Vorstand, der aus drei Personen besteht. Der Vorstand vertritt den Verein nach außen, fungiert als Träger sowie Arbeitgeber und ist für Kontakte mit Ämtern und für die Finanzen zuständig. Auch zwischen Eltern und Team vermittelt, wenn nötig, der Vorstand.</p>
         </div>
+        <h4 className="text-2xl font-bold bg-white w-fit mx-auto rounded-full py-4 px-8 drop-shadow-md mt-4"><a href="docs/Maxhofkinder_ev_Satzung_2023.pdf" target="_blank">Satzung</a></h4>
       </div>
 
       {/* ---- KONTAKT ---- */}
